@@ -1,0 +1,16 @@
+/*Home*/
+
+/*Navigation*/
+nav .brand-logo{
+    color: black;
+}
+nav {
+    background-color: transparent;
+    box-shadow: none;
+}
+nav ul a{
+    color: black;
+}
+.material-icons{
+    color: black;
+}
