@@ -14,3 +14,7 @@ nav ul a{
 .material-icons{
     color: black;
 }
+
+main{
+    padding-top: 80px;
+}
