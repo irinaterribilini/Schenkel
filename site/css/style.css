@@ -1,5 +1,3 @@
-/*Home*/
-
 /*Navigation*/
 nav .brand-logo{
     color: black;
@@ -7,6 +5,10 @@ nav .brand-logo{
 nav {
     background-color: transparent;
     box-shadow: none;
+    position: fixed;
+    width: 70%;
+    z-index: 9999;
+   /*TODO: testen mit Tablet*/
 }
 nav ul a{
     color: black;
@@ -18,3 +20,4 @@ nav ul a{
 main{
     padding-top: 80px;
 }
+
