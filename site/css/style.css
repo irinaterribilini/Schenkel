@@ -1,9 +1,11 @@
 /*Navigation*/
+.nav-wrapper{
+    background-color: white;
+}
 nav .brand-logo{
     color: black;
 }
 nav {
-    background-color: transparent;
     box-shadow: none;
     position: fixed;
     width: 70%;
