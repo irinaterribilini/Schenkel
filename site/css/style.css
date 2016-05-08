@@ -2,21 +2,27 @@
 .nav-wrapper{
     background-color: white;
 }
+
 nav .brand-logo{
-    color: black;
+    color: darkblue;
 }
 nav {
-    box-shadow: none;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     position: fixed;
     width: 70%;
+    height: 150px;
     z-index: 9999;
    /*TODO: testen mit Tablet*/
 }
 nav ul a{
-    color: black;
+    color: darkblue;
 }
-.material-icons{
-    color: black;
+nav ul a:hover{
+    color: blue;
+    background-color: rgba(0,0,0,0);
+}
+.material-icons {
+    color: darkblue;
 }
 .nav-scrolled {
     position: fixed;
@@ -24,9 +30,26 @@ nav ul a{
     width: 100%;
     background: white;
 }
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
+    line-height: 200px;
+}
+.side-nav a{
+    color: darkblue;
+}
+
+.side-nav a:hover{
+    color: blue;
+    background-color: rgba(0,0,0,0);
+}
 
 /*main*/
 main{
-    padding-top: 80px;
+    padding-top: 120px;
+    padding-bottom: 80px;
 }
 
+/*background*/
+/*TODO: evtl. Bild kaufen wegen Qualität. Fotolia*/
+html {
+    background-image: url("http://fenster-norta.de/wp-content/uploads/2013/01/fenster-norta-fenster-grosse.jpg");
+}
