@@ -18,7 +18,14 @@ nav ul a{
 .material-icons{
     color: black;
 }
+.nav-scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+}
 
+/*main*/
 main{
     padding-top: 80px;
 }
