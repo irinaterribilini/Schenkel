@@ -36,7 +36,6 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
 .side-nav a{
     color: darkblue;
 }
-
 .side-nav a:hover{
     color: blue;
     background-color: rgba(0,0,0,0);
@@ -49,7 +48,34 @@ main{
 }
 
 /*background*/
-/*TODO: evtl. Bild kaufen wegen Qualität. Fotolia*/
-html {
-    background-image: url("http://fenster-norta.de/wp-content/uploads/2013/01/fenster-norta-fenster-grosse.jpg");
+.fullscreen {
+    z-index: -9999;
+    margin-top: 150px;
 }
+.slider .indicators .indicator-item{
+display: none;
+}
+
+/*TODO: evtl. Bilder kaufen wegen Qualität. Fotolia*/
+/*html {
+    background-image: url("http://fenster-norta.de/wp-content/uploads/2013/01/fenster-norta-fenster-grosse.jpg");
+}*/
+
+/*footer*/
+footer a {
+    color: darkblue;
+    text-decoration: underline;
+}
+.grey-text.text-lighten-4 {
+    color: darkblue !important;
+}
+footer.page-footer {
+    display: none;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
