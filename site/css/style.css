@@ -47,13 +47,18 @@ main{
     padding-bottom: 80px;
 }
 
-/*background*/
+/*slider*/
 .fullscreen {
     z-index: -9999;
     margin-top: 150px;
 }
 .slider .indicators .indicator-item{
    display: none;
+}
+.material-icons{
+    font-size: 80px;
+    z-index: 99999;
+    color: grey;
 }
 
 /*TODO: evtl. Bilder kaufen wegen Qualität. Fotolia*/
@@ -77,5 +82,9 @@ footer.page-footer {
     margin-top: 0;
     padding-top: 0;
 }
+/*h3{
+    font-family: "work sans";
+    font-weight: 300;
+}*/
 
 
