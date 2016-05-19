@@ -3,12 +3,11 @@
  */
 $( document ).ready(function() {
     $(".button-collapse").sideNav();
-    $('.slider').slider({full_width: true});
-
     $('.slider').slider({
         directionNav: false,
-        controlNav: false
-    })
+        controlNav: false,
+        full_width: true
+    });
 
     $('.prev, .next').on('click', function(){
         var href = $(this).attr('href');
