@@ -12,7 +12,6 @@ nav {
     width: 70%;
     height: 150px;
     z-index: 9999;
-   /*TODO: testen mit Tablet*/
 }
 nav ul a{
     color: rgb(0, 115, 230);
