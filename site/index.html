@@ -9,7 +9,7 @@
     <!--Import css files-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-   <!--<link rel="shortcut icon" type="image/x-icon" href="RenoTechLogo.ico" />-->
+   <!--TODO <link rel="shortcut icon" type="image/x-icon" href="RenoTechLogo.ico" />-->
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,21 +20,21 @@
 <header>
     <nav class="nav-scrolled" role="navigation">
         <div class="nav-wrapper container">
-            <a href="#!" class="brand-logo right">Logo</a>
+            <a href="#" class="brand-logo right">Logo</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="sass.html">Home</a></li>
-                <li><a href="badges.html">Produkte</a></li>
-                <li><a href="collapsible.html">Dienstleistungen</a></li>
-                <li><a href="collapsible.html">RenoTech</a></li>
-                <li><a href="collapsible.html">Kontakt</a></li>
+                <li class="active home"><a href="#">Home</a></li>
+                <li class="produkte"><a href="#">Produkte</a></li>
+                <li class="dienstleistungen"><a href="#">Dienstleistungen</a></li>
+                <li class="renoTech"><a href="#">RenoTech</a></li>
+                <li class="kontakt"><a href="#">Kontakt</a></li>
             </ul>
             <ul id="mobile-demo" class="side-nav" >
-                <li><a href="sass.html">Home</a></li>
-                <li><a href="badges.html">Produkte</a></li>
-                <li><a href="collapsible.html">Dienstleistungen</a></li>
-                <li><a href="collapsible.html">RenoTech</a></li>
-                <li><a href="collapsible.html">Kontakt</a></li>
+                <li class="active home"><a href="#">Home</a></li>
+                <li class="produkte"><a href="#">Produkte</a></li>
+                <li class="dienstleistungen"><a href="#">Dienstleistungen</a></li>
+                <li class="renoTech"><a href="#">RenoTech</a></li>
+                <li class="kontakt"><a href="#">Kontakt</a></li>
             </ul>
         </div>
     </nav>
@@ -42,7 +42,7 @@
 <!-- TODO alt Attribute umbenennen, wenn Bilder fix. "alt"Steht für Bildbeschreibung, wenn Laden nicht möglich.-->
 <div class="container">
 <main>
-    <div class="main-content">
+    <section id="home" class="active">
     <div class="slider fullscreen">
         <ul class="slides">
             <li>
@@ -79,7 +79,24 @@
         <a href="next" class="next" ><i class="material-icons">keyboard_arrow_right</i></a>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="produkte" class="inactive">
+        <div id="produkte-screen"></div>
+        <h1> hello </h1>
+    </section>
+
+    <section id="dienstleistungen" class="inactive">
+        <div id="dienstleistungen-screen"></div>
+    </section>
+
+    <section id="renoTech" class="inactive">
+        <div id="renoTech-screen"></div>
+    </section>
+
+    <section id="kontakt" class="inactive">
+        <div id="kontakt-screen"></div>
+    </section>
 </main>
 </div>
 <footer class="page-footer transparent">
@@ -99,6 +116,6 @@
         src='http://maps.googleapis.com/maps/api/js?libraries=places&v=3'></script>-->
 <script type="text/javascript" src="lib/jquery-2.2.1.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

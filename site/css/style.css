@@ -18,6 +18,11 @@ nav ul a{
     font-family: "work sans";
     font-weight: 900;
 }
+nav ul li.active, nav ul li:active, nav ul li:focus{
+    outline: none;
+    background-color: transparent;
+}
+
 nav ul a:hover{
     color: rgb(77, 217, 255);
     background-color: rgba(0,0,0,0);
@@ -40,6 +45,16 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
 .side-nav a:hover{
     color: rgb(77, 217, 255);
     background-color: rgba(0,0,0,0);
+}
+
+/*active,inactive*/
+.inactive{
+    visibility: hidden;
+    height: 0;
+}
+.active{
+    visibility: visible;
+    height: auto;
 }
 
 /*main*/
@@ -102,4 +117,7 @@ h5{
     font-weight: 300;
 }
 
-
+/*Kontakt-Screen*/
+#kontakt-creen{
+    background-color: seagreen;
+}
