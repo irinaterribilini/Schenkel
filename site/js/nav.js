@@ -22,8 +22,8 @@ $("nav ul > li").click(function(event) {
 function pageChange(to) {
     if(!$("li."+to).hasClass("active")) {
         // Toggelt Navigations Link Styles
-        $("ul.nav > li").removeClass("active");
-        $("ul.nav > li."+to).addClass("active");
+        $("ul#nav-mobile li, ul#mobile-demo li").removeClass("active");
+        $("ul#nav-mobile, ul#mobile-demo").find("li."+to).addClass("active");
 
         // Toggelt sections
         $("section").removeClass("active");

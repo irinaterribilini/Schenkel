@@ -48,13 +48,11 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
 }
 
 /*active,inactive*/
-.inactive{
-    visibility: hidden;
-    height: 0;
+section.inactive{
+    display: none;
 }
-.active{
-    visibility: visible;
-    height: auto;
+section.active{
+    display: block;
 }
 
 /*main*/
