@@ -9,7 +9,7 @@
     <!--Import css files-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-   <!--TODO <link rel="shortcut icon" type="image/x-icon" href="RenoTechLogo.ico" />-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/RenoTechLogo.ico" />
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,10 +20,10 @@
 <header>
     <nav class="nav-scrolled" role="navigation">
         <div class="nav-wrapper container">
-            <a href="#" class="brand-logo right">Logo</a>
+            <a href="#" class="brand-logo right"><img src="images/RenoTechLogo.jpg" width="120" height="100" alt="RenoTech-Logo"/></a> <!--TODO Klick auf Logo --> home-Seite-->
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li class="active home"><a href="#">Home</a></li>
+                <li class="active home"><a href="#">Home</a></li> <!--TODO: Tab-Titel nach href einfügen -->
                 <li class="produkte"><a href="#">Produkte</a></li>
                 <li class="dienstleistungen"><a href="#">Dienstleistungen</a></li>
                 <li class="renoTech"><a href="#">RenoTech</a></li>
@@ -94,7 +94,10 @@
     </section>
 
     <section id="kontakt" class="inactive">
-        <div id="kontakt-screen"></div>
+        <div id="kontakt-screen" class="row">
+            <div class="col s6">This div is 6-columns wide</div>
+            <div class="col s6">This div is 6-columns wide</div>
+        </div>
     </section>
 </main>
 </div>
