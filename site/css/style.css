@@ -127,3 +127,8 @@ h5{
     margin-left: 0rem;
     margin-right: 0rem;
 }
+
+/*dienstleistungen-screen*/
+.row#dienstleistungen-screen{
+    margin-top: 50px;
+}
