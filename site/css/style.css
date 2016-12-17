@@ -127,6 +127,9 @@ h5{
     margin-left: 0rem;
     margin-right: 0rem;
 }
+#adresse.col.s6{
+    width: auto;
+}
 
 /*dienstleistungen-screen*/
 .row#dienstleistungen-screen{
