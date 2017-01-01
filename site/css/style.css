@@ -127,8 +127,20 @@ h5{
     margin-left: 0rem;
     margin-right: 0rem;
 }
-#adresse.col.s6{
-    width: auto;
+.responsive_map {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56%;
+    position: relative;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.responsive_map iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 /*dienstleistungen-screen*/
