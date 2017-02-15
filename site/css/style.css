@@ -113,10 +113,12 @@ footer.page-footer {
 h3{
     font-family: "work sans";
     font-weight: 900;
+    text-shadow: 1px 1px 1px grey;
 }
 h5{
     font-family: "work sans";
     font-weight: 300;
+    text-shadow: 1px 1px 1px grey;
 }
 
 /*kontakt-screen*/
