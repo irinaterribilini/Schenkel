@@ -149,3 +149,12 @@ h5{
 .row#dienstleistungen-screen{
     margin-top: 50px;
 }
+
+/*renoTech-screen*/
+#renoTech-screen .card{
+    margin-top: 50px;
+}
+
+.card.horizontal {
+    display: flex;
+}
