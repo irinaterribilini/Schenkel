@@ -72,11 +72,19 @@ main{
 .slider .indicators .indicator-item{
    display: none;
 }
-.arrows .material-icons{
+
+@media (max-width: 772px) {
+    .arrows .material-icons{
+        display: none;
+    }
+}
+
+.arrows .material-icons {
     font-size: 80px;
     z-index: 9999;
     color: grey;
 }
+
 .prev .material-icons{
     top:50%;
     height:200px;
