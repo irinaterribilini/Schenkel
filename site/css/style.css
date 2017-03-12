@@ -170,9 +170,7 @@ h5{
 @media (max-width: 772px) {
     .card.horizontal .card-image{
         display: none;
-}
-
-
+    }
 }
 
 #renoTech-screen .card-stacked{
