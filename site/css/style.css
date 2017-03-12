@@ -158,3 +158,20 @@ h5{
 .card.horizontal {
     display: flex;
 }
+
+@media (max-width: 772px) {
+    .card.horizontal .card-image{
+        display: none;
+}
+
+
+}
+
+#renoTech-screen .card-stacked{
+    width: 100%;
+}
+
+.card-content.texttitel{
+    font-size: 24px;
+    font-weight: 300;
+}
